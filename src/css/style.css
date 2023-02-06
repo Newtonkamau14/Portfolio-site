@@ -24,6 +24,13 @@
     margin-left: 60px;
 }
 
+.nav-bar ul li a img {
+    height: 40px;
+    width: 40px;
+    float: left;
+}
+
+
 .nav-bar ul li a {
     text-align: center;
     text-decoration: none;
@@ -77,6 +84,78 @@
     text-align: center;
 }
 
-#projects {
-    margin-top: 250px;
+.main-container > .div-title{
+    margin-top: 300px;
+}
+
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #09091B;
+    max-width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px rgb(17, 107, 226); 
+}
+
+.card img {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.card a {
+    color:yellowgreen;
+    background-color: #09091B;
+    text-decoration: none;
+}
+
+.card p {
+    color: white;
+    background-color: #09091B;
+}
+
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contact a {
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+#contact a img {
+    height: 60px;
+    width: 60px;
+}
+
+.other-contact {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+.footer {
+    margin-top: 150px;
+    border-top: 1px solid grey;
+}
+
+.footer p {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.footer p:hover {
+    color:  rgb(17, 107, 226);
 }
