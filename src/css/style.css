@@ -14,6 +14,10 @@
     position: sticky;
 }
 
+.nav-bar .nav-bar-brand {
+    float: left;
+}
+
 .nav-bar ul {
     list-style-type: none;
     float: right;
@@ -22,12 +26,6 @@
 .nav-bar ul li {
     display: inline;
     margin-left: 60px;
-}
-
-.nav-bar ul li a img {
-    height: 40px;
-    width: 40px;
-    float: left;
 }
 
 
@@ -142,6 +140,7 @@
 }
 
 .other-contact {
+    margin-top: 10px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
 }
